@@ -1,0 +1,17 @@
+.idea
+node_modules
+.vscode/settings.json
+yarn-error.log
+.eslintcache
+.next
+lerna-debug.log
+log
+.env
+.env.local
+.DS_Store
+coverage
+.idea
+.history
+.coverage
+.config
+dist
