@@ -1,0 +1,92 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+body {background-color: pink;}
+ #wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: blue; 
+ }
+ header img {
+    width: 100%; 
+    display: block;
+}
+nav {
+    overflow: hidden;
+
+}
+nav a {
+    display: block;
+    width: 25%;
+    float: left;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: darkcyan;
+    padding: 15px 30px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+nav a:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+    font-size: 22px;
+
+}
+.active {
+    background-color: darkgreen;
+}
+article {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+article h1 {
+    font-size:30px;
+    text-align: center;
+    marign: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid darkgreen;
+
+}
+.left {
+    float: left;
+    margin: 0px 10px 10px 0;
+    width: 25%;
+    border-radius: 50% 30%;
+
+}
+article p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 15px 0;
+}
+iframe {
+    width: 100%;
+
+}
+footer{
+    height: 40px;
+    background-color: darkcyan;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+@media (max-width: 800px){
+    nav a {
+    width: 50%;
+
+    }
+}
+@media (max-width: 500px){
+    nav a{
+        width: 100%;
+        font-size: 22px;    
+    }
+
+}
